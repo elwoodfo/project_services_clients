@@ -1,10 +1,36 @@
-.idea/
-.env
-
-.venv/
-venv/
-
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
+# Django
+*.log
+local_settings.py
 db.sqlite3
+db.sqlite3-journal
+media/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker / local overrides
+docker-compose.override.yml
+
+# Static files collected by Django
+staticfiles/
